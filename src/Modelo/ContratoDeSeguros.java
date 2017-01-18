@@ -38,5 +38,10 @@ public class ContratoDeSeguros {
     
     public ContratoDeSeguros() {
     }
+
+    @Override
+    public String toString() {
+        return "ContratoDeSeguros{" + "id=" + id + ", fechaFirma=" + fechaFirma + ", persona=" + persona + ", poliza=" + poliza + ", compa\u00f1ia=" + compañia + '}';
+    }
     
 }
