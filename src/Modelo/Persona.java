@@ -32,5 +32,16 @@ public class Persona {
     
     public Persona() {
     }
-   
+
+    /**
+     * Método para mostrar los datos como cadenas de texto
+     * @return String
+     */
+    
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", direccion=" + direccion + 
+                ", dni=" + dni + ", edad=" + edad + '}';
+        
+    }
 }
