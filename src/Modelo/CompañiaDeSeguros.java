@@ -28,5 +28,5 @@ public class CompañiaDeSeguros {
     
     public CompañiaDeSeguros() {
     }
-    
+  
 }
