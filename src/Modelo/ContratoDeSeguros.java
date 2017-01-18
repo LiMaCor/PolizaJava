@@ -41,7 +41,9 @@ public class ContratoDeSeguros {
 
     @Override
     public String toString() {
-        return "ContratoDeSeguros{" + "id=" + id + ", fechaFirma=" + fechaFirma + ", persona=" + persona + ", poliza=" + poliza + ", compa\u00f1ia=" + compañia + '}';
+        return "ContratoDeSeguros{" + "id=" + id + ", fechaFirma=" + fechaFirma 
+                + ", persona=" + persona + ", poliza=" + poliza + 
+                ", compa\u00f1ia=" + compañia + '}';
     }
     
 }
