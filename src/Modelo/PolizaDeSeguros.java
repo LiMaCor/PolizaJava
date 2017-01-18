@@ -28,5 +28,15 @@ public class PolizaDeSeguros {
     
     public PolizaDeSeguros() {
     }
+
+    /**
+     * Método para mostrar los datos como cadenas de texto
+     * @return String
+     */
     
+    @Override
+    public String toString() {
+        return "PolizaDeSeguros{" + "tipoPoliza=" + tipoPoliza + ", id=" + id + '}';
+        
+    }
 }

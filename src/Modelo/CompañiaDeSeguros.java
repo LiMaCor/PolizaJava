@@ -28,5 +28,15 @@ public class CompañiaDeSeguros {
     
     public CompañiaDeSeguros() {
     }
-  
+
+    /**
+     * Método para mostrar los datos como cadenas de texto
+     * @return String
+     */
+    
+    @Override
+    public String toString() {
+        return "Compa\u00f1iaDeSeguros{" + "nombre=" + nombre + ", id=" + id + '}';
+        
+    }
 }
